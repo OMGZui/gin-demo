@@ -5,10 +5,8 @@
 ## 使用
 
 ```bash
-cd $GOPATH/src/github.com/omgzui
-git clone https://github.com/OMGZui/gin-demo.git
-cd gin-demo
-govendor update
+go get -u github.com/OMGZui/gin-demo
+cd $GOPATH/src/github.com/omgzui/gin-demo
+govendor sync
 go run main.go
-
 ```
